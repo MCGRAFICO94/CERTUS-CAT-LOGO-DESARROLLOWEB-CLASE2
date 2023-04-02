@@ -1,0 +1,113 @@
+/* Fuentes tipográficas */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+
+/* Diseño general */
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+   
+}
+
+/* Encabezado */
+html > body > header > h1 {
+    color: rgb(212, 15, 15);
+    background-image: url(images/header.png);
+    background-position: center;
+    background-size: cover;
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* CONSOLAS,VIDEOJUEGOS Y CULTURA POP */
+html > body > header > h2 {
+    
+    letter-spacing: 0.17em;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(247, 247, 247);
+    font: size 2.9em;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+/* SUBTÍTULO */
+html > body > header > p {
+    color: rgb(70, 70, 70);
+    font-size: 2 em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* VIDEOS DE YOUTUBE */
+html > body > iframe {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* NAVEGACIÓN / item de lista */
+li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px
+}
+
+ul{
+    margin: 0;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    background-color: rgb(218, 43, 43);
+}
+
+nav > ul > li {
+      display: inline-block;    
+      padding: 10 px 20px
+}
+
+nav > ul > li:hover {
+      background-color: rgb(117, 4, 4);
+}
+
+nav > ul > li > a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+/* Cuerpo Principal */
+main{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Sección Catálogo */
+section#catalogo {
+   text-align: center;  
+}
+
+
+/* Artículos */
+ article{
+   
+    max-width: 390px;
+    min-width: 250px;
+    display: inline-block;
+    padding: 10px 20px
+    
+}
+
+.imgProduct {
+    width: 100%;
+}
+
