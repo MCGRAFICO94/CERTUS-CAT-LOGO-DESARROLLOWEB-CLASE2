@@ -83,6 +83,7 @@ nav > ul > li > a {
     text-decoration: none;
 }
 
+
 /* Cuerpo Principal */
 main{
     max-width: 1320px;
@@ -99,11 +100,15 @@ section#catalogo {
 
 /* Artículos */
  article{
-   
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 10px;10%;
+    border: 0.9px #adadad solid;
     max-width: 390px;
-    min-width: 250px;
+    min-width: 200px;
     display: inline-block;
-    padding: 10px 20px
+    padding: 16px 
+    
     
 }
 
@@ -111,3 +116,34 @@ section#catalogo {
     width: 100%;
 }
 
+/* Precios de Funkos */
+html > body > main > section#catalogo > article > p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    max-width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;10%;
+    color: #fff;
+    background-color: rgb(201, 29, 29);
+    padding: 7px 50px
+}
+
+/* BOTÓN CARRITO */
+html > body > main > section#catalogo > article > button {
+border-radius: 5px;10%;
+display: inline-block;
+background-color: black; 
+color: #fff;
+}
+
+
+/* Pie de pagina */
+footer{
+    
+    
+    text-align: center;
+    color: aliceblue;
+    background-color: black;  /*Usé los colores corporativos del manual corporativo de la tienda PHANTOM: negro,rojo y blanco PARA ARMONIA y respeto de linea gráfica */
+    padding: 30px 20px
+}
