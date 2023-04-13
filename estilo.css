@@ -40,6 +40,16 @@ html > body > header > h2 {
 
 }
 
+/* NOMBRES DE CADA PRODUCTO */
+html > body > main > section#catalogo > article >  h3 {
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(2, 1, 1);
+    
+}
+
+
 /* SUBTÍTULO */
 html > body > header > p {
     color: rgb(70, 70, 70);
@@ -89,17 +99,20 @@ main{
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(255, 255, 255);
+    
 }
 
 /* Sección Catálogo */
 section#catalogo {
-   text-align: center;  
+      text-align: center;
+      padding-top: 20px;
+      
 }
 
 
 /* Artículos */
  article{
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     width: 80%;
     border-radius: 10px;10%;
@@ -107,8 +120,8 @@ section#catalogo {
     max-width: 390px;
     min-width: 200px;
     display: inline-block;
-    padding: 16px 
-    
+    padding: 16px
+     
     
 }
 
